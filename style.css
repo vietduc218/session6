@@ -1,0 +1,120 @@
+/* Css selector wildcard */
+* {
+    color: black;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    background: linear-gradient(30deg, rgba(2,0,36,1) 0%, rgba(215, 204, 65,0.6) 35%, rgba(0,212,255,1) 100%);
+
+}
+
+.main-page {
+    
+    
+    background-color: white;
+    border: 3px solid #ef9c00;
+    box-shadow: 5px 5px #4e4c4a8d ;
+    margin: 10px 20px 10px 20px;
+}
+
+.page-heading {
+    padding: 5px 10px 5px 10px;
+    margin: 5px 10px 10px 10px;
+    border-bottom: #ef9c00 3px solid;
+}
+
+.page-body {
+    width: 30%;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    float: left;
+
+}
+
+#dinoimg {
+    float: left;
+}
+
+.aside-1 {
+    width: 30%;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 15px 5px;
+    float: left;
+    border-right: #ef9c00 3px solid;
+}
+/* Main title format */
+/* Font-size absolute (px), shortcut syntax */
+#page-title {
+    color:#ef9c00;
+    text-shadow: -2px -2px 4px grey;
+    text-align: left;
+    font-weight: bold;
+    font-size: 34px;
+}
+
+/* Image format, Chill selector, float left */
+
+div > img {
+    float: left;
+    margin-right: 1em;
+}
+
+/* Subtitle format font-size relative (150%) */
+/* Clear */
+#sub-title {
+    color: green;
+    text-align: left;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 150%;
+    clear: right;
+
+}
+
+
+.aside-2 {
+    width: 33%;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    float:right;
+    text-decoration: none;
+    text-align: left;
+    
+}
+
+
+
+span.type1 {
+    text-decoration: underline;
+    font-weight: bold;
+    color: grey;
+}
+
+span.type2 {
+    text-decoration: underline;
+    font-weight: bold;
+    color: green;
+}
+
+.type3 {
+    color: #ef9c00;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.footer {
+    border-top: #ef9c00 3px solid;
+    padding: 10px 5px 10px 5px;
+    margin: 20px 5px 10px 5px;
+    clear: both;
+}
+/* Font-size absolute (pt) */
+#copyright {
+    text-align: right;
+    font-size: 10pt;
+}
+
+
